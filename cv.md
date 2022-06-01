@@ -9,7 +9,7 @@
 + **GitHub:** Hronofagia
 ***
 ## About Me
-
+I came to the JS / Frontend development course because I am interested in gaining new knowledge and development, and I am also interested in the developer profession
 ***
 ## Skills
 + HTML
