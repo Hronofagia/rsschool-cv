@@ -24,10 +24,18 @@
     </header>
     <main>
         
-        <div class="first_container">
-            <img class="photo" src="assets/img/Foto.jpg" alt="user image">
         
-            <section class="contacts">
+        <div class="first_container">
+            <div class="photo_container">
+                <img class="photo" src="assets/img/Photo.jpg" alt="user image">
+                <div class="decoration"></div>
+                <div class="decoration_2"></div>
+                <section class="I">
+                    <h1 class="heading">Nastassia Khamitsevich</h1>
+                    <p><strong>Junior Front-end Developer</strong></p>
+                </section>
+            </div>
+            <section class="contacts" id="contacts">
                 <h2 class="sideheading">Contacts</h2>
                 <div class="container">
                     <ul class="contacts">
@@ -40,54 +48,63 @@
                 </div>
             </section> 
 
-            <section class="skills">
+            <section class="skills" id="skills">
                 <h2 class="sideheading">Skills</h2>
                 <dl class="skills-list">
-                    <dt class="skill-html">HTML</dt>
-                    <dd class="level"><div style="width: 60%;">60%</div></dd>
-                    <dt class="skill-css">CSS</dt>
-                    <dd class="level"><div style="width: 40%;">40%</div></dd>
-                    <dt class="skill-js">JS</dt>
-                    <dd class="level"><div style="width: 10%;">10%</div></dd>
+                    <dt class="skills">HTML</dt>
+                    <dd><div class="level" style="width: 60%;">60%</div></dd>
+                    <dt class="skills">CSS</dt>
+                    <dd><div class="level" style="width: 40%;">40%</div></dd>
+                    <dt class="skills">JS</dt>
+                    <dd><div class="level" style="width: 10%;">10%</div></dd>
                 </dl>
             </section>    
 
-            <section class="english">
+            <section class="english" id="english">
                 <h2 class="sideheading">English</h2>
-                <p>A2</p>
+                <p>A2 (Pre-Intermediate)</p>
             </section>
         </div>
 
         <div class="second_container">
 
-            <section class="I">
-                <h1 class="heading">Nastassia Khamitsevich</h1>
-                <p>Junior Front-end Developer</p>
-            </section>
-
-            <section class="summary">
+            <section class="summary" id="summary">
                 <h2 class="subheading">About me</h2>
-                <p>I came to the JS / Frontend development course because I am interested in gaining new knowledge and development, and I am also interested in the developer profession</p>
+                <p>&nbsp;&nbsp;&nbsp;I came to the JS / Frontend development course because I am interested in gaining new knowledge and improving my skills, and I am also want to become a software developer.</p>
             </section>
 
-            <section class="code">
+            <section class="code" id="code">
                 <h2 class="subheading">Code Example</h2>
-                <p>вставить код</p>
+                <pre>
+"function showDate() {
+    var d = new Date();
+    var curr_date = d.getDate();
+    var curr_month = d.getMonth() + 1; //months are zero based
+    var curr_year = d.getFullYear();
+    document.write(curr_date + "-" + curr_month + "-" + curr_year);
+}"</pre>
             </section>
 
-            <section class="projects">
+            <section class="projects" id="projects">
                 <h2 class="subheading">Projects</h2>
-                <p>вставить проекты</p>
+                <p>&nbsp;&nbsp;&nbsp;My first project - creating a website for home goods on HTML Academy</p>
+                    <a href="https://hronofagia.github.io/Home-goods-landing/"><img class="project-1" src="assets/img/project-1.jpg" alt="Cайт магазина товаров для дома"></a>
             </section>
 
-            <section class="education">
+            <section class="education" id="education">
                 <h2 class="subheading">Education</h2>
-                <p>список University: Belarusian National Technical University - Economics and organization of production +курсы</p>
+                <ul class="education">
+                    <li><b>University: Belarusian National Technical University</b> - Economics and organization of production</li>
+                    <li><b>Courses on HTML Academy</b> - Introduction to web development</li>
+                    <li><b>Courses on HTML Academy</b> - Introduction to HTML and CSS</li>
+                </ul>
             </section>
         </div>
     </main>
     <footer class="footer">
-        <p>rsschool, 2022</p>
+        <a href="https://github.com/Hronofagia"><img src="assets/img/icon-github-2.png" alt="Github"><b>@Hronofagia</b></a>
+        <p><b>2022</b></p>
+        <a href="https://app.rs.school/"><img src="assets/img/logo-rsschool.png" height="32px" alt="rsschool"></a>
     </footer>
 </body>
 </html>
