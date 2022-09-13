@@ -1,1 +1,1 @@
-# rsschool-cv
+https://hronofagia.github.io/rsschool-cv/
