@@ -1,6 +1,6 @@
 ## rsschool-cv
 ***
-# Nastassia Khamitsevich 
+# Nastassia Khamitsevich
 ***
 ## Contacts
 + **Location:** Kaunas, Lithuania
